@@ -2,6 +2,7 @@ import "./index.css";
 import Employee from "./components/Employee";
 import { useState } from "react";
 import {v4 as uuidv4} from "uuid";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [role, setRole] = useState("");
